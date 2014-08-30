@@ -2,6 +2,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
+/// <summary>
+/// Positions the RectTransform over the target GameObject's render bounds.
+/// Make sure the Canvas's mode is set to World Space.
+/// </summary>
 [RequireComponent(typeof(RectTransform))]
 public class UIDisplayOver : MonoBehaviour {
 
