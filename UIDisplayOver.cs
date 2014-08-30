@@ -37,7 +37,7 @@ public class UIDisplayOver : MonoBehaviour {
 		}
 	}
 
-	public Bounds CalculateRendererBounds() {
+	Bounds CalculateRendererBounds() {
 		Bounds bounds = new Bounds();
 		Renderer[] renderers = target.GetComponentsInChildren<Renderer>();
 
